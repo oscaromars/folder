@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>CALDERON PEÑAFIEL DIANA MILENA</razonSocial>
+    <nombreComercial>FERRETERIA CALDERON</nombreComercial>
+    <ruc>1203117476001</ruc>
+    <claveAcceso>1111202207120311747600120010010000000081234567819</claveAcceso>
+    <codDoc>07</codDoc>
+    <estab>001</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000008</secuencial>
+    <dirMatriz>CALLE TORRES CAUSANA 310 Y ENRIQUE VALDEZ</dirMatriz>
+  </infoTributaria>
+  <infoCompRetencion>
+    <fechaEmision>11/11/2022</fechaEmision>
+    <dirEstablecimiento>CALLE TORRES CAUSANA 310 Y ENRIQUE VALDEZ</dirEstablecimiento>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+    <razonSocialSujetoRetenido>DEMACO</razonSocialSujetoRetenido>
+    <identificacionSujetoRetenido>0990621691001</identificacionSujetoRetenido>
+    <periodoFiscal>11/2022</periodoFiscal>
+  </infoCompRetencion>
+  <impuestos>
+    <impuesto>
+      <codigo>1</codigo>
+      <codigoRetencion>312</codigoRetencion>
+      <baseImponible>312.37</baseImponible>
+      <porcentajeRetener>1.75</porcentajeRetener>
+      <valorRetenido>5.47</valorRetenido>
+      <codDocSustento>01</codDocSustento>
+      <numDocSustento>015002000053182</numDocSustento>
+      <fechaEmisionDocSustento>08/11/2022</fechaEmisionDocSustento>
+    </impuesto>
+  </impuestos>
+  <infoAdicional>
+    <campoAdicional nombre="Direccion">URBANIZACION SANTA LEONOR MZ. 6 SOLAR 13, GUAYAQUIL</campoAdicional>
+    <campoAdicional nombre="Telefono">044606592</campoAdicional>
+    <campoAdicional nombre="Email">matriz@demaco.ec</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature742349">
+<ds:SignedInfo Id="Signature-SignedInfo233565">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID168033" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature742349-SignedProperties803585">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>12wMeUU04aZ7174RhNG6k2NUBH8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate131138">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>YJ8ONrYJuGkluJMClUcSRoCwJB8=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-541818" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>z4L0IIqNnqQLr5xa2Pydza/6wws=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue923750">
+qd5JyLrw7EanBq09ZWQvkDavA2/GKijRoDd9htq8JuyRwlBTcyT7AGBooziDoD7v+9KvfQOEL8SR
+sY7UcmTOFwrGG7vr+WLuXN5KbfmMAgyMat6wg5mPcLjJTkFj6N/WpePGgDlysk/GBPCCiqp16tgZ
+bOFft6Msl/nf9STwg9R7S+d76gxPCcMEQWI+XuzWx56o9OO6MQErcpoESPzvjhNzpZvEnBlEAnS4
+HTFeNObXGBODsgs+/7bTOMPoeYgEcrhC5wi/cFV9UvST4CZ4jcLMZYjEYw0kJ1Yo9t7HJax4+Unq
+PTVwnR8/NRK6yyKq6UDScNwCSqrY8ZXM5unJGA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate131138">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIL3DCCCcSgAwIBAgIEWQoAvjANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yMjEwMTIwMjU5MDVaFw0yNTEwMTEwMjU5MDVaMIGeMScw
+JQYDVQQDDB5ESUFOQSBNSUxFTkEgQ0FMREVST04gUEVOQUZJRUwxFTATBgNVBAUTDDExMTAyMjIy
+MDg0ODEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQC22J4osxw8c+iSBqetPRwMHBIpof190QazSCaIVZqQPmAuA6evm1XI
+/sCt4e8CawFbrsbzYH531uapl96vmxrw0xNditJ6ux9xR57VxSSUyYHxHYs5+uF2ck6CbTl923BB
+ViuBV1f9t1Sda8HMQjeJPO+LsYXjPxb4EM9osl4DxVzXFZ9EO5AQ4rgF7ZNUrRlRj/770NzSGRGs
+L2dj1BzPARvRmgdTI8cIYwG59M5ln/QA+aONS++bDNbdFA3C2z6NGHsIDl+P/Y+gaq5ddGa/5YLa
+/YXtFBolb2Gs9JrMgujDXLS7C9HTLdPRDMkKP1eX1y3SC4Ay1jkmpio853X5AgMBAAGjggcjMIIH
+HzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFIy6yhFXeCWAHWsKS1W/ja5i3b2PMFkGCCsGAQUF
+BwEBBE0wSzBJBggrBgEFBQcwAYY9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2Vq
+YmNhL3B1YmxpY3dlYi9zdGF0dXMvb2NzcDCBzwYDVR0uBIHHMIHEMIHBoIG+oIG7hoG4bGRhcDov
+L2xkYXBzZGNhMi5zZWN1cml0eWRhdGEubmV0LmVjL0NOPUFVVE9SSURBRCBERSBDRVJUSUZJQ0FD
+SU9OIFNVQkNBLTIgU0VDVVJJVFkgREFUQSxPVT1FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04sTz1TRUNVUklUWSBEQVRBIFMuQS4gMixDPUVDP2RlbHRhUmV2b2NhdGlvbkxp
+c3Q/YmFzZTAmBgNVHREEHzAdgRtkaWFuYWNhbGRlcm9uNTdAaG90bWFpbC5jb20wggEGBgNVHSAE
+gf4wgfswWgYKKwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBpAGMAYQBk
+AG8AIABkAGUAIABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGCpnICATCB
+jTCBigYIKwYBBQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3AtY29udGVu
+dC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMgZGUgQ2Vy
+dGlmaWNhZG8gUGVyc29uYSBOYXR1cmFsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGgP4Y9aHR0
+cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0dXMvb2Nz
+cKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBT
+RUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCBx6CBxKCB
+wYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQgREUg
+Q0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJ
+Q0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9jZXJ0aWZp
+Y2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1vcGVyYWRv
+cjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9j
+bWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VS
+SVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VD
+VVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQUeFwuBif37niGws6PqkphmbDGcBgwKwYD
+VR0QBCQwIoAPMjAyMjEwMTIwMjU5MDVagQ8yMDI1MTAxMTAyNTkwNVowCwYDVR0PBAQDAgXgMBoG
+CisGAQQBgqZyAwEEDAwKMTIwMzExNzQ3NjAXBgorBgEEAYKmcgMJBAkMB01JTEFHUk8wEQYKKwYB
+BAGCpnIDIgQDDAEuMDMGCisGAQQBgqZyAwcEJQwjVE9SUkVTIENBVVNBTkEgMzEwIFkgRU5SSVFV
+RSBWQUxERVowHAYKKwYBBAGCpnIDAgQODAxESUFOQSBNSUxFTkEwHwYKKwYBBAGCpnIDIAQRDA8w
+MDEwMDIwMDAyNjY4MTgwEQYKKwYBBAGCpnIDIwQDDAEuMBMGCisGAQQBgqZyAyEEBQwDUEZYMBcG
+CisGAQQBgqZyAwwECQwHRUNVQURPUjAYBgorBgEEAYKmcgMDBAoMCENBTERFUk9OMBEGCisGAQQB
+gqZyAx4EAwwBLjAdBgorBgEEAYKmcgMLBA8MDTEyMDMxMTc0NzYwMDEwEQYKKwYBBAGCpnIDHQQD
+DAEuMBgGCisGAQQBgqZyAwQECgwIUEVOQUZJRUwwGgYKKwYBBAGCpnIDCAQMDAowOTg2MDAxNzA4
+MA0GCSqGSIb3DQEBCwUAA4ICAQACXf0Dl69uxdDX2ESnbnJmjegT/xj7U3OxOsAvLVRZihwnzJjT
+TX1RkWp7F69QUzwsoHyEwjIFPyvAUjUH8Nn9n7CxPe9Lx61K468PeB30tvECGuZH8Tle/3vqOuPi
+DnzAPgYk5uN5FgO7C11rsEXGlxn8I+VzOLpJz4oZX2jVnVuDDkP2IEZzFGf3Qe/+2s4AmQ6YVnU8
+kJIfnUw6I2JbSWKOgstqLf4QVGS3zI5WQh7bRZY/WLqryOhSOiWtuinnUINvFQ2ksJPysQfyKTtz
+lEkj8M5WKy+510RVlU8W6QN5hE1/NLpBhoWvh+ctVqUuW6JQZoRFkqOpM/P3rhrPQWnJ8BVMIR1C
+GfS0Y8hwYOOt9U+Ucetnv2DL0bpWPbS5mALuAAC5LJ4yNOSXM1ezxrEkRf0KUDXq5E3E8+IfS5Xv
+vun7sADUCdTcLlfKQoydfrSIYoni43jJ/vASvVC/U1AZ+yS3wvL9CPanNn/urLCoxL1Svq8q6233
+ReoT1qq0+oyn5/yi61GeWrL3iq4ujNJiCC3qIN34r7z9DpehJMuIUD7b8BC3h/8c05NW+FRl005C
+92cARM9x3wWFy7n05+mSlnulkabg5ViThpR3HLLRRi+UC1Vt6F9wEHed8BOgWeDmJTlYhk08GiKi
++HPbrOADAr9x/zsrPLNt/64S4w==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ttieKLMcPHPokganrT0cDBwSKaH9fdEGs0gmiFWakD5gLgOnr5tVyP7AreHvAmsBW67G82B+d9bm
+qZfer5sa8NMTXYrSersfcUee1cUklMmB8R2LOfrhdnJOgm05fdtwQVYrgVdX/bdUnWvBzEI3iTzv
+i7GF4z8W+BDPaLJeA8Vc1xWfRDuQEOK4Be2TVK0ZUY/++9Dc0hkRrC9nY9QczwEb0ZoHUyPHCGMB
+ufTOZZ/0APmjjUvvmwzW3RQNwts+jRh7CA5fj/2PoGquXXRmv+WC2v2F7RQaJW9hrPSazILow1y0
+uwvR0y3T0QzJCj9Xl9ct0guAMtY5JqYqPOd1+Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature742349-Object567777">
+      <etsi:QualifyingProperties Target="#Signature742349">
+        <etsi:SignedProperties Id="Signature742349-SignedProperties803585">
+          <etsi:SignedSignatureProperties>
+            <etsi:SigningTime>2022-11-11T13:24:12-05:00</etsi:SigningTime>
+            <etsi:SigningCertificate>
+              <etsi:Cert>
+                <etsi:CertDigest>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                  <ds:DigestValue>bcbMo4sHaUzYExizmaIVkATE3yk=</ds:DigestValue>
+                </etsi:CertDigest>
+                <etsi:IssuerSerial>
+                  <ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC</ds:X509IssuerName>
+                  <ds:X509SerialNumber>1493827774</ds:X509SerialNumber>
+                </etsi:IssuerSerial>
+              </etsi:Cert>
+            </etsi:SigningCertificate>
+          </etsi:SignedSignatureProperties>
+          <etsi:SignedDataObjectProperties>
+            <etsi:DataObjectFormat ObjectReference="#Reference-ID-541818">
+              <etsi:Description>contenido comprobante</etsi:Description>
+              <etsi:MimeType>text/xml</etsi:MimeType>
+            </etsi:DataObjectFormat>
+          </etsi:SignedDataObjectProperties>
+        </etsi:SignedProperties>
+      </etsi:QualifyingProperties>
+    </ds:Object>
+  </ds:Signature>
+</comprobanteRetencion>

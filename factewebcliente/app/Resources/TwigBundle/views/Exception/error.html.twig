@@ -1,0 +1,20 @@
+{% extends "FactelBundle::Layout.html.twig" %}
+{% block panel_title %}
+    <i class="fa fa-bar-chart-o fa-fw"></i> Ha ocurrido un error!!
+{% endblock %}
+{% block content %}
+    <div class="col-sm-12">
+        <div style="text-align: center;">
+            <img src="{{asset('recursos/img/error.jpg')}}" alt="FacilFact" />
+        </div>
+        <div style="text-align: center;">
+            {% set error = exception.message|nl2br|format_file_from_text %}
+            {% if "DELETE FROM Cliente" in exception.message|nl2br|format_file_from_text %}
+                {% set error = "ERROR!! No se puede eliminar un CLIENTE usado en un comprobante electronico" %}
+            {% elseif  "DELETE FROM Producto" in exception.message|nl2br|format_file_from_text %}
+                {% set error = "ERROR!! No se puede eliminar un PRODUCTO usado en un comprobante electronico" %}
+            {% endif %}
+            <h6 style="font-weight: bold">{{error}}</h6>
+        </div>
+    </div>
+{% endblock %}

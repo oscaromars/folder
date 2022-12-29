@@ -1,0 +1,2 @@
+[05-Sep-2019 10:02:38 UTC] PHP Notice:  Undefined index: user_login_status in /home/velosano/public_html/web/pdf/documentos/ver_factura.php on line 8
+[07-Sep-2019 00:59:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/velosano/public_html/web/pdf/documentos/res/ver_factura_html.php on line 180
